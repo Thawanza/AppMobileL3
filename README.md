@@ -51,3 +51,13 @@ La gestion et la publication des résultats médicaux.
 
 La communication avec la base de données du laboratoire.
 
+
+          Technologies utilisées
+
+    | Composant       | Technologie                             |
+| --------------- | --------------------------------------- |
+| Langage Mobile  | Java                                    |
+| Interface       | Android Studio                          |
+| Backend         | PHP                                     |
+| Base de données | MySQL                                   |
+| Communication   | API HTTP (requêtes entre Android ↔ PHP) |
