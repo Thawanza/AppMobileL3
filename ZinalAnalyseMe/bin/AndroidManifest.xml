@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.zinalanalyseme"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="17"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.zinalanalyseme.SplashActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.zinalanalyseme.AuthentificationActivity"
+            android:label="@string/title_activity_authentification" >
+        </activity>
+        <activity
+            android:name="com.example.zinalanalyseme.WelcomeActivity"
+            android:label="@string/title_activity_welcome" >
+        </activity>
+        <activity
+            android:name="com.example.zinalanalyseme.WelcomActivity"
+            android:label="@string/title_activity_welcom" >
+        </activity>
+        <activity
+            android:name="com.example.zinalanalyseme.InscriptionActivity"
+            android:label="@string/title_activity_inscription" >
+        </activity>
+        <activity
+            android:name="com.example.zinalanalyseme.AceuilleActivity"
+            android:label="@string/title_activity_aceuille" >
+        </activity>
+        <activity
+            android:name="com.example.zinalanalyseme.ConseilsActivity"
+            android:label="@string/title_activity_conseils" >
+        </activity>
+        <activity
+            android:name="com.example.zinalanalyseme.RendezvousActivity"
+            android:label="@string/title_activity_rendezvous" >
+        </activity>
+        <activity
+            android:name="com.example.zinalanalyseme.VaccinActivity"
+            android:label="@string/title_activity_vaccin" >
+        </activity>
+    </application>
+
+</manifest>
